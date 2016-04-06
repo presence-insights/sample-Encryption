@@ -1,0 +1,415 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/ryanberger/.nvm/v0.10.38/bin/node',
+1 verbose cli   '/Users/ryanberger/.nvm/v0.10.38/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'node-rsa',
+1 verbose cli   'fs',
+1 verbose cli   'sha1',
+1 verbose cli   'superagent',
+1 verbose cli   'Q' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.38
+4 verbose cache add [ 'node-rsa', null ]
+5 verbose cache add name=undefined spec="node-rsa" args=["node-rsa",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'node-rsa',
+6 verbose parsed url   path: 'node-rsa',
+6 verbose parsed url   href: 'node-rsa' }
+7 verbose cache add [ 'fs', null ]
+8 verbose cache add name=undefined spec="fs" args=["fs",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'fs',
+9 verbose parsed url   path: 'fs',
+9 verbose parsed url   href: 'fs' }
+10 verbose cache add [ 'sha1', null ]
+11 verbose cache add name=undefined spec="sha1" args=["sha1",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'sha1',
+12 verbose parsed url   path: 'sha1',
+12 verbose parsed url   href: 'sha1' }
+13 verbose cache add [ 'superagent', null ]
+14 verbose cache add name=undefined spec="superagent" args=["superagent",null]
+15 verbose parsed url { protocol: null,
+15 verbose parsed url   slashes: null,
+15 verbose parsed url   auth: null,
+15 verbose parsed url   host: null,
+15 verbose parsed url   port: null,
+15 verbose parsed url   hostname: null,
+15 verbose parsed url   hash: null,
+15 verbose parsed url   search: null,
+15 verbose parsed url   query: null,
+15 verbose parsed url   pathname: 'superagent',
+15 verbose parsed url   path: 'superagent',
+15 verbose parsed url   href: 'superagent' }
+16 verbose cache add [ 'Q', null ]
+17 verbose cache add name=undefined spec="Q" args=["Q",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'Q',
+18 verbose parsed url   path: 'Q',
+18 verbose parsed url   href: 'Q' }
+19 silly lockFile 6f758a98-node-rsa node-rsa
+20 verbose lock node-rsa /Users/ryanberger/.npm/6f758a98-node-rsa.lock
+21 silly lockFile 3f4bb586-fs fs
+22 verbose lock fs /Users/ryanberger/.npm/3f4bb586-fs.lock
+23 silly lockFile 415ab40a-sha1 sha1
+24 verbose lock sha1 /Users/ryanberger/.npm/415ab40a-sha1.lock
+25 silly lockFile 64ec20d5-superagent superagent
+26 verbose lock superagent /Users/ryanberger/.npm/64ec20d5-superagent.lock
+27 silly lockFile c3156e00-Q Q
+28 verbose lock Q /Users/ryanberger/.npm/c3156e00-Q.lock
+29 silly lockFile 6f758a98-node-rsa node-rsa
+30 silly lockFile 6f758a98-node-rsa node-rsa
+31 silly lockFile 415ab40a-sha1 sha1
+32 silly lockFile 415ab40a-sha1 sha1
+33 silly lockFile 3f4bb586-fs fs
+34 silly lockFile 3f4bb586-fs fs
+35 verbose addNamed [ 'sha1', '' ]
+36 verbose addNamed [ null, '*' ]
+37 silly lockFile de3e44de-sha1 sha1@
+38 verbose lock sha1@ /Users/ryanberger/.npm/de3e44de-sha1.lock
+39 silly lockFile c3156e00-Q Q
+40 silly lockFile c3156e00-Q Q
+41 verbose addNamed [ 'node-rsa', '' ]
+42 verbose addNamed [ null, '*' ]
+43 silly lockFile c36536f8-node-rsa node-rsa@
+44 verbose lock node-rsa@ /Users/ryanberger/.npm/c36536f8-node-rsa.lock
+45 verbose addNamed [ 'fs', '' ]
+46 verbose addNamed [ null, '*' ]
+47 silly lockFile a107b96b-fs fs@
+48 verbose lock fs@ /Users/ryanberger/.npm/a107b96b-fs.lock
+49 silly lockFile 64ec20d5-superagent superagent
+50 silly lockFile 64ec20d5-superagent superagent
+51 verbose addNamed [ 'Q', '' ]
+52 verbose addNamed [ null, '*' ]
+53 silly lockFile 561e3931-Q Q@
+54 verbose lock Q@ /Users/ryanberger/.npm/561e3931-Q.lock
+55 silly addNameRange { name: 'sha1', range: '*', hasData: false }
+56 verbose addNamed [ 'superagent', '' ]
+57 verbose addNamed [ null, '*' ]
+58 silly lockFile 0e56af53-superagent superagent@
+59 verbose lock superagent@ /Users/ryanberger/.npm/0e56af53-superagent.lock
+60 silly addNameRange { name: 'node-rsa', range: '*', hasData: false }
+61 silly addNameRange { name: 'fs', range: '*', hasData: false }
+62 silly addNameRange { name: 'Q', range: '*', hasData: false }
+63 silly addNameRange { name: 'superagent', range: '*', hasData: false }
+64 verbose request where is /fs
+65 verbose request registry https://registry.npmjs.org/
+66 verbose request id 2dfce86889090880
+67 verbose url raw /fs
+68 verbose url resolving [ 'https://registry.npmjs.org/', './fs' ]
+69 verbose url resolved https://registry.npmjs.org/fs
+70 verbose request where is https://registry.npmjs.org/fs
+71 info trying registry request attempt 1 at 17:22:08
+72 http GET https://registry.npmjs.org/fs
+73 verbose request where is /sha1
+74 verbose request registry https://registry.npmjs.org/
+75 verbose url raw /sha1
+76 verbose url resolving [ 'https://registry.npmjs.org/', './sha1' ]
+77 verbose url resolved https://registry.npmjs.org/sha1
+78 verbose request where is https://registry.npmjs.org/sha1
+79 info trying registry request attempt 1 at 17:22:08
+80 verbose etag "E3GM4VU06QMZVH4RCO0TW4WRG"
+81 http GET https://registry.npmjs.org/sha1
+82 verbose request where is /node-rsa
+83 verbose request registry https://registry.npmjs.org/
+84 verbose url raw /node-rsa
+85 verbose url resolving [ 'https://registry.npmjs.org/', './node-rsa' ]
+86 verbose url resolved https://registry.npmjs.org/node-rsa
+87 verbose request where is https://registry.npmjs.org/node-rsa
+88 info trying registry request attempt 1 at 17:22:08
+89 verbose etag "B44ZV3G6P8HMMY6VA0ZG36ZBS"
+90 http GET https://registry.npmjs.org/node-rsa
+91 verbose request where is /Q
+92 verbose request registry https://registry.npmjs.org/
+93 verbose url raw /Q
+94 verbose url resolving [ 'https://registry.npmjs.org/', './Q' ]
+95 verbose url resolved https://registry.npmjs.org/Q
+96 verbose request where is https://registry.npmjs.org/Q
+97 info trying registry request attempt 1 at 17:22:08
+98 verbose etag "89RASJBS8JRRZIGDMACT5CUWV"
+99 http GET https://registry.npmjs.org/Q
+100 verbose request where is /superagent
+101 verbose request registry https://registry.npmjs.org/
+102 verbose url raw /superagent
+103 verbose url resolving [ 'https://registry.npmjs.org/', './superagent' ]
+104 verbose url resolved https://registry.npmjs.org/superagent
+105 verbose request where is https://registry.npmjs.org/superagent
+106 info trying registry request attempt 1 at 17:22:08
+107 verbose etag "8EGRTY21LNVQMOXV78FOBMMYM"
+108 http GET https://registry.npmjs.org/superagent
+109 http 200 https://registry.npmjs.org/fs
+110 silly registry.get cb [ 200,
+110 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+110 silly registry.get     etag: '"90XK2AWWMZOUACHU9M9AU2GQA"',
+110 silly registry.get     'content-type': 'application/json',
+110 silly registry.get     'cache-control': 'max-age=60',
+110 silly registry.get     'content-length': '1593',
+110 silly registry.get     'accept-ranges': 'bytes',
+110 silly registry.get     date: 'Wed, 26 Aug 2015 21:22:11 GMT',
+110 silly registry.get     via: '1.1 varnish',
+110 silly registry.get     age: '0',
+110 silly registry.get     connection: 'keep-alive',
+110 silly registry.get     'x-served-by': 'cache-ord1734-ORD',
+110 silly registry.get     'x-cache': 'HIT',
+110 silly registry.get     'x-cache-hits': '1',
+110 silly registry.get     'x-timer': 'S1440624131.324953,VS0,VE40',
+110 silly registry.get     vary: 'Accept' } ]
+111 silly addNameRange number 2 { name: 'fs', range: '*', hasData: true }
+112 silly addNameRange versions [ 'fs', [ '0.0.0', '0.0.2' ] ]
+113 verbose addNamed [ 'fs', '0.0.2' ]
+114 verbose addNamed [ '0.0.2', '0.0.2' ]
+115 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+116 verbose lock fs@0.0.2 /Users/ryanberger/.npm/afea0479-fs-0-0-2.lock
+117 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+118 verbose lock https://registry.npmjs.org/fs/-/fs-0.0.2.tgz /Users/ryanberger/.npm/f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz.lock
+119 verbose addRemoteTarball [ 'https://registry.npmjs.org/fs/-/fs-0.0.2.tgz',
+119 verbose addRemoteTarball   'e1f244ef3933c1b2a64bd4799136060d0f5914f8' ]
+120 info retry fetch attempt 1 at 17:22:11
+121 verbose fetch to= /var/folders/n0/tqyly_xj5zb5tyz1jvxwzc000000gn/T/npm-79655-7z8tfzPV/registry.npmjs.org/fs/-/fs-0.0.2.tgz
+122 http GET https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+123 http 304 https://registry.npmjs.org/node-rsa
+124 silly registry.get cb [ 304,
+124 silly registry.get   { date: 'Wed, 26 Aug 2015 21:22:11 GMT',
+124 silly registry.get     via: '1.1 varnish',
+124 silly registry.get     'cache-control': 'max-age=60',
+124 silly registry.get     etag: '"B44ZV3G6P8HMMY6VA0ZG36ZBS"',
+124 silly registry.get     age: '0',
+124 silly registry.get     connection: 'keep-alive',
+124 silly registry.get     'x-served-by': 'cache-ord1728-ORD',
+124 silly registry.get     'x-cache': 'MISS',
+124 silly registry.get     'x-cache-hits': '0',
+124 silly registry.get     'x-timer': 'S1440624131.342806,VS0,VE39',
+124 silly registry.get     vary: 'Accept' } ]
+125 verbose etag https://registry.npmjs.org/node-rsa from cache
+126 http 404 https://registry.npmjs.org/Q
+127 silly registry.get cb [ 404,
+127 silly registry.get   { 'content-type': 'application/json',
+127 silly registry.get     'cache-control': 'max-age=0',
+127 silly registry.get     'content-length': '2',
+127 silly registry.get     'accept-ranges': 'bytes',
+127 silly registry.get     date: 'Wed, 26 Aug 2015 21:22:11 GMT',
+127 silly registry.get     via: '1.1 varnish',
+127 silly registry.get     age: '0',
+127 silly registry.get     connection: 'keep-alive',
+127 silly registry.get     'x-served-by': 'cache-ord1727-ORD',
+127 silly registry.get     'x-cache': 'MISS',
+127 silly registry.get     'x-cache-hits': '0',
+127 silly registry.get     'x-timer': 'S1440624131.336083,VS0,VE49' } ]
+128 http 304 https://registry.npmjs.org/sha1
+129 silly registry.get cb [ 304,
+129 silly registry.get   { date: 'Wed, 26 Aug 2015 21:22:11 GMT',
+129 silly registry.get     via: '1.1 varnish',
+129 silly registry.get     'cache-control': 'max-age=60',
+129 silly registry.get     etag: '"E3GM4VU06QMZVH4RCO0TW4WRG"',
+129 silly registry.get     age: '0',
+129 silly registry.get     connection: 'keep-alive',
+129 silly registry.get     'x-served-by': 'cache-ord1722-ORD',
+129 silly registry.get     'x-cache': 'MISS',
+129 silly registry.get     'x-cache-hits': '0',
+129 silly registry.get     'x-timer': 'S1440624131.324370,VS0,VE65',
+129 silly registry.get     vary: 'Accept' } ]
+130 verbose etag https://registry.npmjs.org/sha1 from cache
+131 silly addNameRange number 2 { name: 'node-rsa', range: '*', hasData: true }
+132 silly addNameRange versions [ 'node-rsa',
+132 silly addNameRange   [ '0.0.1',
+132 silly addNameRange     '0.1.0',
+132 silly addNameRange     '0.1.1',
+132 silly addNameRange     '0.1.2',
+132 silly addNameRange     '0.1.3',
+132 silly addNameRange     '0.1.31',
+132 silly addNameRange     '0.1.32',
+132 silly addNameRange     '0.1.40',
+132 silly addNameRange     '0.1.41',
+132 silly addNameRange     '0.1.50',
+132 silly addNameRange     '0.1.51',
+132 silly addNameRange     '0.1.52',
+132 silly addNameRange     '0.1.53',
+132 silly addNameRange     '0.1.54',
+132 silly addNameRange     '0.2.0',
+132 silly addNameRange     '0.2.10',
+132 silly addNameRange     '0.2.11',
+132 silly addNameRange     '0.2.12',
+132 silly addNameRange     '0.2.13',
+132 silly addNameRange     '0.2.20',
+132 silly addNameRange     '0.2.21',
+132 silly addNameRange     '0.2.22',
+132 silly addNameRange     '0.2.23',
+132 silly addNameRange     '0.2.24',
+132 silly addNameRange     '0.2.25' ] ]
+133 verbose addNamed [ 'node-rsa', '0.2.25' ]
+134 verbose addNamed [ '0.2.25', '0.2.25' ]
+135 silly lockFile b3106da9-node-rsa-0-2-25 node-rsa@0.2.25
+136 verbose lock node-rsa@0.2.25 /Users/ryanberger/.npm/b3106da9-node-rsa-0-2-25.lock
+137 silly lockFile 561e3931-Q Q@
+138 silly lockFile 561e3931-Q Q@
+139 silly addNameRange number 2 { name: 'sha1', range: '*', hasData: true }
+140 silly addNameRange versions [ 'sha1',
+140 silly addNameRange   [ '0.0.0', '0.0.1', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+141 verbose addNamed [ 'sha1', '1.1.1' ]
+142 verbose addNamed [ '1.1.1', '1.1.1' ]
+143 silly lockFile 31081099-sha1-1-1-1 sha1@1.1.1
+144 verbose lock sha1@1.1.1 /Users/ryanberger/.npm/31081099-sha1-1-1-1.lock
+145 silly lockFile abc3c43d-org-node-rsa-node-rsa-0-2-25-tgz https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+146 verbose lock https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz /Users/ryanberger/.npm/abc3c43d-org-node-rsa-node-rsa-0-2-25-tgz.lock
+147 verbose addRemoteTarball [ 'https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz',
+147 verbose addRemoteTarball   '5ccba5e37a0b9d0c14b4ad341ecc772f998202f6' ]
+148 info retry fetch attempt 1 at 17:22:12
+149 verbose fetch to= /var/folders/n0/tqyly_xj5zb5tyz1jvxwzc000000gn/T/npm-79655-7z8tfzPV/registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+150 silly lockFile 31081099-sha1-1-1-1 sha1@1.1.1
+151 silly lockFile 31081099-sha1-1-1-1 sha1@1.1.1
+152 silly lockFile de3e44de-sha1 sha1@
+153 silly lockFile de3e44de-sha1 sha1@
+154 http GET https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+155 http 200 https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+156 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+157 silly lockFile f18d0b15-gistry-npmjs-org-fs-fs-0-0-2-tgz https://registry.npmjs.org/fs/-/fs-0.0.2.tgz
+158 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+159 silly lockFile afea0479-fs-0-0-2 fs@0.0.2
+160 silly lockFile a107b96b-fs fs@
+161 silly lockFile a107b96b-fs fs@
+162 http 200 https://registry.npmjs.org/superagent
+163 silly registry.get cb [ 200,
+163 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+163 silly registry.get     etag: '"D3FVY79Q6JJ9UZ7R86VQ3ORO6"',
+163 silly registry.get     'content-type': 'application/json',
+163 silly registry.get     'cache-control': 'max-age=60',
+163 silly registry.get     'content-length': '85683',
+163 silly registry.get     'accept-ranges': 'bytes',
+163 silly registry.get     date: 'Wed, 26 Aug 2015 21:22:11 GMT',
+163 silly registry.get     via: '1.1 varnish',
+163 silly registry.get     age: '20',
+163 silly registry.get     connection: 'keep-alive',
+163 silly registry.get     'x-served-by': 'cache-ord1728-ORD',
+163 silly registry.get     'x-cache': 'HIT',
+163 silly registry.get     'x-cache-hits': '1',
+163 silly registry.get     'x-timer': 'S1440624131.337613,VS0,VE0',
+163 silly registry.get     vary: 'Accept' } ]
+164 silly addNameRange number 2 { name: 'superagent', range: '*', hasData: true }
+165 silly addNameRange versions [ 'superagent',
+165 silly addNameRange   [ '0.1.1',
+165 silly addNameRange     '0.1.2',
+165 silly addNameRange     '0.1.3',
+165 silly addNameRange     '0.2.0',
+165 silly addNameRange     '0.3.0',
+165 silly addNameRange     '0.4.0',
+165 silly addNameRange     '0.4.1',
+165 silly addNameRange     '0.4.2',
+165 silly addNameRange     '0.4.3',
+165 silly addNameRange     '0.5.0',
+165 silly addNameRange     '0.5.1',
+165 silly addNameRange     '0.6.0',
+165 silly addNameRange     '0.7.0',
+165 silly addNameRange     '0.8.0',
+165 silly addNameRange     '0.8.1',
+165 silly addNameRange     '0.8.2',
+165 silly addNameRange     '0.9.0',
+165 silly addNameRange     '0.9.1',
+165 silly addNameRange     '0.9.2',
+165 silly addNameRange     '0.9.3',
+165 silly addNameRange     '0.9.4',
+165 silly addNameRange     '0.9.5',
+165 silly addNameRange     '0.9.6',
+165 silly addNameRange     '0.9.7',
+165 silly addNameRange     '0.9.8',
+165 silly addNameRange     '0.9.9',
+165 silly addNameRange     '0.9.10',
+165 silly addNameRange     '0.10.0',
+165 silly addNameRange     '0.11.0',
+165 silly addNameRange     '0.12.0',
+165 silly addNameRange     '0.12.1',
+165 silly addNameRange     '0.12.2',
+165 silly addNameRange     '0.12.3',
+165 silly addNameRange     '0.12.4',
+165 silly addNameRange     '0.13.0',
+165 silly addNameRange     '0.14.0',
+165 silly addNameRange     '0.14.1',
+165 silly addNameRange     '0.14.2',
+165 silly addNameRange     '0.14.3',
+165 silly addNameRange     '0.14.4',
+165 silly addNameRange     '0.14.5',
+165 silly addNameRange     '0.14.6',
+165 silly addNameRange     '0.14.7',
+165 silly addNameRange     '0.14.8',
+165 silly addNameRange     '0.14.9',
+165 silly addNameRange     '0.15.0',
+165 silly addNameRange     '0.15.1',
+165 silly addNameRange     '0.15.2',
+165 silly addNameRange     '0.15.3',
+165 silly addNameRange     '0.15.4',
+165 silly addNameRange     '0.15.5',
+165 silly addNameRange     '0.15.6',
+165 silly addNameRange     '0.15.7',
+165 silly addNameRange     '0.16.0',
+165 silly addNameRange     '0.17.0',
+165 silly addNameRange     '0.18.0',
+165 silly addNameRange     '0.18.1',
+165 silly addNameRange     '0.18.2',
+165 silly addNameRange     '0.19.0',
+165 silly addNameRange     '0.19.1',
+165 silly addNameRange     '0.20.0',
+165 silly addNameRange     '0.21.0',
+165 silly addNameRange     '1.0.0',
+165 silly addNameRange     '1.1.0',
+165 silly addNameRange     '1.2.0',
+165 silly addNameRange     '1.3.0' ] ]
+166 verbose addNamed [ 'superagent', '1.3.0' ]
+167 verbose addNamed [ '1.3.0', '1.3.0' ]
+168 silly lockFile a57be109-superagent-1-3-0 superagent@1.3.0
+169 verbose lock superagent@1.3.0 /Users/ryanberger/.npm/a57be109-superagent-1-3-0.lock
+170 silly lockFile a57be109-superagent-1-3-0 superagent@1.3.0
+171 silly lockFile a57be109-superagent-1-3-0 superagent@1.3.0
+172 silly lockFile 0e56af53-superagent superagent@
+173 silly lockFile 0e56af53-superagent superagent@
+174 http 200 https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+175 silly lockFile abc3c43d-org-node-rsa-node-rsa-0-2-25-tgz https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+176 silly lockFile abc3c43d-org-node-rsa-node-rsa-0-2-25-tgz https://registry.npmjs.org/node-rsa/-/node-rsa-0.2.25.tgz
+177 silly lockFile b3106da9-node-rsa-0-2-25 node-rsa@0.2.25
+178 silly lockFile b3106da9-node-rsa-0-2-25 node-rsa@0.2.25
+179 silly lockFile c36536f8-node-rsa node-rsa@
+180 silly lockFile c36536f8-node-rsa node-rsa@
+181 error 404 Not Found
+181 error 404
+181 error 404 'Q' is not in the npm registry.
+181 error 404 You should bug the author to publish it
+181 error 404
+181 error 404 Note that you can also install from a
+181 error 404 tarball, folder, or http url, or git url.
+182 error System Darwin 14.3.0
+183 error command "/Users/ryanberger/.nvm/v0.10.38/bin/node" "/Users/ryanberger/.nvm/v0.10.38/bin/npm" "install" "node-rsa" "fs" "sha1" "superagent" "Q"
+184 error cwd /Users/ryanberger/Documents/Individual Projects/RSA/node js
+185 error node -v v0.10.38
+186 error npm -v 1.4.28
+187 error code E404
+188 verbose exit [ 1, true ]
